@@ -48,7 +48,7 @@ syn keyword abapStatement HIDE
 syn keyword abapStatement IF IMPORT IMPORTING INFOTYPES INITIALIZATION INPUT INSERT
 syn keyword abapStatement LEAVE LIKE LOAD LOCAL LOOP
 syn keyword abapStatement MESSAGE MODIFY MODULE MOVE MOVE-CORRESPONDING MULTIPLY MULTIPLY-CORRESPONDING
-syn keyword abapStatement NEW-LINE NEW-PAGE NEW-SECTION
+syn keyword abapStatement NEW-LINE NEW-PAGE NEW-SECTION NEW
 syn keyword abapStatement ON OVERLAY
 syn keyword abapStatement PACK PARAMETERS PERFORM POSITION PRINT-CONTROL PROGRAM PROVIDE PUT
 syn keyword abapStatement RAISE RANGES READ RECEIVE REFRESH REJECT REPLACE REPORT RESERVE RESTORE ROLLBACK
@@ -109,6 +109,7 @@ syn keyword abapOperator INTO FROM WHERE GROUP BY HAVING ORDER BY
 syn keyword abapOperator APPENDING CORRESPONDING FIELDS OF TABLE 
 syn keyword abapOperator LEFT RIGHT OUTER INNER JOIN AS CLIENT SPECIFIED BYPASSING BUFFER UP TO ROWS CONNECTING
 syn keyword abapOperator EQ NE LT LE GT GE NOT AND OR XOR IN LIKE BETWEEN
+syn keyword abapOperator BIT-AND BIT-OR BIT-XOR
 
 " An error? Not strictly... but cannot think of reason this is intended.
 syn match   abapError    "\.\."
