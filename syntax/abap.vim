@@ -103,6 +103,9 @@ syn keyword abapOperator strlen xstrlen charlen numofchar dbmaxlen
 
 " Table operators
 syn keyword abapOperator lines
+syn keyword abapOperator value
+syn keyword abapOperator new
+syn keyword abapOperator #
 
 " Table operators (SELECT operators)
 syn keyword abapOperator INTO FROM WHERE GROUP BY HAVING ORDER BY
